@@ -1,0 +1,10 @@
+{
+  "manifest_version": 2,
+  "name": "Quick Launch Extension",
+  "version": "1.0",
+  "description": "A quick search and launch extension.",
+  "permissions": ["activeTab"],
+  "browser_action": {
+    "default_popup": "popup.html"
+  }
+}
